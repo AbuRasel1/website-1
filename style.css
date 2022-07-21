@@ -7,6 +7,7 @@ body{
     max-width: 1000px;
    
     margin: 0px auto;
+    border: 5px solid green;
     
 
 }
@@ -99,6 +100,7 @@ p {
 }
 
 /* players section  */
+
 .players{
     margin-left: 10px;
     display: grid;
@@ -107,11 +109,45 @@ p {
     grid-column-gap:10px ;
 
 
+
 }
 .players img{
-    width: 230px;
-    height: 120px;
+    width: 200px;
+    height: 140px;
 }
+.player{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.player p {
+    color: black;
+    font-weight: 900px;
+}
+.player button {
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+.player button a{
+    text-decoration: none;
+    color: black;
+    
+
+
+}
+
+
 
 
 /* footer  */
@@ -145,4 +181,8 @@ hr{
     margin-left: 30px;
 
     color: whitesmoke;
+}
+
+.icon-margin{
+    margin-right: 20px;
 }
